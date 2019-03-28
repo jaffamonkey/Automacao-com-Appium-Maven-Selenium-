@@ -23,7 +23,8 @@ public void setUp() throws MalformedURLException{
 	//Set up desired capabilities and pass the Android app-activity and app-package to Appium
 	DesiredCapabilities caps = new DesiredCapabilities();
 	caps.setCapability("deviceName", "MIKE");
-	caps.setCapability("udid", "ce0616061ab9360204"); //Give Device ID of your mobile phone
+//	caps.setCapability("udid", "ce0616061ab9360204"); //Give Device ID of your mobile phone
+	caps.setCapability("uidi", "10.14.10.167:5555");
 	caps.setCapability("platformName", "Android");
 	caps.setCapability("platformVersion", "8.0");
 	//caps.setCapability("browserName", "Chrome");
